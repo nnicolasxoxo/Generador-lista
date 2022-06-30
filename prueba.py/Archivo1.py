@@ -7,6 +7,7 @@ class Generadorlista:
             a=int(input('"De una numero entero: '))
             Lista.append(a)
         print(Lista)
+        return Lista
     def GenerarListaAleatorio(self):
         Lista=[]
         I=int(input("Inserte Limite Inicial: "))
@@ -15,6 +16,5 @@ class Generadorlista:
             a=random.randint(I,F)
             Lista.append(a)
         print(Lista)
-Migenerador=Generadorlista()
-Migenerador.generarListaUsuario()
-Migenerador.GenerarListaAleatorio()
+        return Lista
+
